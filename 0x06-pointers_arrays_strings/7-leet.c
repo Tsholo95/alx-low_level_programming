@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * lee - encode into 1337speak
+ * leet - encode into 1337speak
  * @n: input value
  * Return: n value
  */
-char *lee(char *n)
+char *leet(char *n)
 {
 	int i, j;
 	char s1[] = "aAeEoOtTlL";
@@ -21,4 +21,4 @@ char *lee(char *n)
 		}
 	}
 	return (n);
-}	
+}
